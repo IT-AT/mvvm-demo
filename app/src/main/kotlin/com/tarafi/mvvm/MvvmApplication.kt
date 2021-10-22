@@ -1,4 +1,10 @@
 package com.tarafi.mvvm
 
-class MvvmApplication {
+import android.app.Application
+
+class MvvmApplication : Application() {
+
+    override fun onCreate() {
+        super.onCreate()
+    }
 }

@@ -1,11 +1,11 @@
-package com.tarafi.velolibreapp.common.app.views
+package com.tarafi.mvvm.common.app.views
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import android.widget.RelativeLayout
-import com.tarafi.velolibreapp.R
-import com.tarafi.velolibreapp.common.app.activity.MainActivity
+import com.tarafi.mvvm.R
+import com.tarafi.mvvm.common.app.activity.MainActivity
 import kotlinx.android.synthetic.main.view_header.view.*
 
 class ATHeader  : RelativeLayout {
