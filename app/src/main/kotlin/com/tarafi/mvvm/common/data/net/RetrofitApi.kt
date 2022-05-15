@@ -5,6 +5,9 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
+/**
+ * Created by TARAFI Ahmed on 06/11/2021
+ */
 const val HOST_URL = "https://api.jcdecaux.com/vls/v1/"
 
 object RetrofitApi {

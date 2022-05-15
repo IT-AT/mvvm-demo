@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MVVM</string>
+    <string name="label_loading">Chargement en cours</string>
+    <string name="label_success">Liste des informations</string>
 </resources>

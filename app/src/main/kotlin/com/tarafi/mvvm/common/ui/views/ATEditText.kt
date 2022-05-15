@@ -1,11 +1,11 @@
-package com.tarafi.mvvm.common.app.views
+package com.tarafi.mvvm.common.ui.views
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatEditText
-import com.tarafi.mvpdemo.utils.ATFontUtils
 import com.tarafi.mvvm.R
+import com.tarafi.mvvm.utils.ATFontUtils
 
 class ATEditText : AppCompatEditText {
 

@@ -1,17 +1,9 @@
 package com.tarafi.mvvm.common.di
 
-import android.content.Context
-import com.tarafi.mvvm.MvvmApplication
 import dagger.Module
-import dagger.Provides
-import javax.inject.Singleton
 
+/**
+ * Created by TARAFI Ahmed on 06/11/2021
+ */
 @Module
-class ApplicationModule(val application: MvvmApplication) {
-
-    @Provides
-    @Singleton
-    fun provideContext(): Context {
-        return application
-    }
-}
+class ApplicationModule

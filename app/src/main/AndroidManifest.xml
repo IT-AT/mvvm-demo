@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MVVM">
         <activity
-            android:name="com.tarafi.mvvm.common.app.activity.MainActivity"
+            android:name="com.tarafi.mvvm.common.ui.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

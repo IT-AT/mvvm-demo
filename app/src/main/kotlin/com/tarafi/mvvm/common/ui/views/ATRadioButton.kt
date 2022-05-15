@@ -1,10 +1,10 @@
-package com.tarafi.mvvm.common.app.views
+package com.tarafi.mvvm.common.ui.views
 
 import android.content.Context
 import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatRadioButton
-import com.tarafi.mvpdemo.utils.ATFontUtils
 import com.tarafi.mvvm.R
+import com.tarafi.mvvm.utils.ATFontUtils
 
 class ATRadioButton : AppCompatRadioButton {
     private var mContext: Context;

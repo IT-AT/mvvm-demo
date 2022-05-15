@@ -1,17 +1,18 @@
-package com.tarafi.mvvm.common.app.views
+package com.tarafi.velolibreapp.common.app.views
 
 import android.content.Context
 import android.util.AttributeSet
-import androidx.appcompat.widget.AppCompatTextView
-import com.tarafi.mvpdemo.utils.ATFontUtils
+import androidx.appcompat.widget.AppCompatButton
 import com.tarafi.mvvm.R
+import com.tarafi.mvvm.utils.ATFontUtils
 
-class ATTextView : AppCompatTextView {
+class ATButton : AppCompatButton {
+
     private var mContext: Context
 
     constructor(context: Context) : super(context) {
         mContext = context
-        setTypeface(ATFontUtils.getTypeface(mContext, ATFontUtils.LATO, ATFontUtils.REGULAR))
+        typeface = ATFontUtils.getTypeface(mContext, ATFontUtils.LATO, ATFontUtils.REGULAR)
     }
 
     constructor(context: Context, attributeSet: AttributeSet) : super(context, attributeSet) {
@@ -37,6 +38,7 @@ class ATTextView : AppCompatTextView {
         val typedArray = context.obtainStyledAttributes(attributeSet, R.styleable.View, 0, 0)
         val fontName = typedArray.getInt(R.styleable.View_font_name, ATFontUtils.LATO)
         val fontType = typedArray.getInt(R.styleable.View_font_type, ATFontUtils.REGULAR)
-        typeface = ATFontUtils.getTypeface(mContext, fontName, fontType)
+        setTypeface(ATFontUtils.getTypeface(mContext, fontName, fontType))
+
     }
 }

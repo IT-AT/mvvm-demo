@@ -1,8 +1,11 @@
-package com.tarafi.mvpdemo.utils
+package com.tarafi.mvvm.utils
 
 import android.content.Context
 import android.graphics.Typeface
 
+/**
+ * Created by TARAFI Ahmed on 06/11/2021
+ */
 class Font {
     var bold: Typeface? = null
     var light: Typeface? = null
